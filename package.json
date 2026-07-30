@@ -1,0 +1,23 @@
+{
+  "name": "proshop-v2",
+  "version": "2.0.0",
+  "description": "eCommerce application built on MERN stack",
+  "homepage": "https://github.com/ptaraske/proshop#readme",
+  "bugs": {
+    "url": "https://github.com/ptaraske/proshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptaraske/proshop.git"
+  },
+  "license": "MIT",
+  "author": "Peter Taraskevich",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
